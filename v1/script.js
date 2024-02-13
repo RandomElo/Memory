@@ -28,6 +28,7 @@ function generateurCarte(nombreCase) {
         objetReponse[generateurPlacement(nombreCase)] = `images/Photo-${i}.jpg`;
         nombrePaires++;
     }
+    console.log(objetReponse)
 }
 //Fonction qui gére l'affichage de case cliquer
 function affichageCarte(carte) {
